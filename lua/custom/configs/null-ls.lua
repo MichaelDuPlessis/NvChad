@@ -9,6 +9,7 @@ local sources = {
 
   -- linters
   lint.pylint,
+  lint.cpplint,
 }
 
 null_ls.setup {

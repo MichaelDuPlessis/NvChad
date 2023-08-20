@@ -8,6 +8,9 @@ local plugins = {
       ensure_installed = {
         -- rust
         "rust-analyzer",
+        -- C++
+        "clangd",
+        "cpplint",
         -- python
         "pyright",
         "autopep8",
