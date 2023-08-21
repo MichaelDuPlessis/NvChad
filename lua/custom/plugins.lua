@@ -17,6 +17,9 @@ local plugins = {
         "pylint",
         -- haskell
         "haskell-language-server",
+        -- typescript/js
+        "typescript-language-server",
+        "prettier",
       },
     },
   },
