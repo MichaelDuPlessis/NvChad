@@ -20,6 +20,8 @@ local plugins = {
         -- typescript/js
         "typescript-language-server",
         "prettier",
+        -- docker
+        "dockerfile-language-server",
       },
     },
   },
