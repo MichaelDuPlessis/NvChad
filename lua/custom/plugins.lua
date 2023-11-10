@@ -87,6 +87,22 @@ local plugins = {
       table.insert(M.sources, {name = "crates"})
       return M
     end,
+  },
+  -- flutter
+  {
+    'akinsho/flutter-tools.nvim',
+    ft = "dart",
+    dependencies = {
+      'neovim/nvim-lspconfig',
+      'nvim-lua/plenary.nvim',
+      'stevearc/dressing.nvim'
+    },
+    opts = function ()
+      return require "custom.configs.flutter-tools"
+    end,
+    config = function(_, opts)
+      require('flutter-tools').setup(opts)
+    end
   }
 }
 
